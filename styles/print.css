@@ -1,0 +1,57 @@
+@page {
+    size: auto;   /* auto is the initial value */
+    margin: 0;  /* this affects the margin in the printer settings */
+}
+
+#wrap {
+	max-width: 90%;
+	margin: auto;
+	padding: 10px;
+}
+
+#download {
+	display:none;
+}
+
+#headwrap {
+	float: left;
+	#margin: 10px;
+	width: 75%;
+}
+#photo {
+	display: block;
+	height: auto;
+	width: 20%; 
+	float: left;
+}
+#name {
+	font-size: 1.5em;
+	font-weight: bold;
+}
+#email {
+	font-size: 1em;
+	
+}
+#nickname {
+	#float: right;
+	font-size: 1em;
+}
+
+#moto {
+	margin: auto;
+	color: #4C678C;
+	font-size: 0.8em;
+	font-style: normal;
+	font-weight: normal;
+	text-align: left ;
+}
+
+body{
+	font-family: Georgia, ‘Times New Roman’, serif;
+	color: #2C4770;
+	font-size: 12pt;
+	 text-size-adjust: 100%; 
+    -ms-text-size-adjust: 100%; 
+    -moz-text-size-adjust: 100%; 
+    -webkit-text-size-adjust: 100%;
+}
