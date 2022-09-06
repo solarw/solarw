@@ -35,20 +35,32 @@ Primary skills(What I'm really good in)
 
 Experienced in (Technologies short list)
 ============================================
-python 2/3, asyncio, flask, postgresql, rabbitmq, django, docker/docker-compose, celery, mysql, tornado, mongodb, redis, nginx, git, shell scripting, and more!
+python 3, asyncio, flask, postgresql, rabbitmq, django, docker/docker-compose, aiohttp, celery, mysql, tornado, mongodb, redis, nginx, git, shell scripting, blockchain integration, and more!
 
 
 Some of work history (Proven experience)
 ============================================
 
-= Fetch.AI - agents framework =
+= Fetch.AI - A framework for autonomous economic agent (AEA) development. =
 worktime: starting april 2020
-tech stack: python3.8, asyncio
+tech stack: python3.6-3.10, asyncio, golang
 role: senior python developer
 
-Working on agent framework core
-Refactoring to asyncio, bugfixes, tests improvements.
-Found and fixed many issues with performance, stability, bad asynchronous compatability. Created extra tools for testing code. Moved a lot of code to asyncio design.
+Improving overal runtime performance including performance benchmarks.
+Refactor framework runtime core for better asyncio compatability.
+Dependencies hell resolution (pipenv, poetry).
+CI, autochecks, autotests configuration.
+Thirdpart developers support.
+Integration tests implementation.
+Improving overal code coverage with tests.
+Fixes for async code with blocking issues(mixes sync and async code).
+Docker images building and deployment automation.
+Concurrency/multitasking execution fixes.
+Demo applications implementation.
+Blockchain/ledger interaction: work on consmpy library for cosmos based ledgers support.
+Work on p2p communication network based on libp2p written in golang.
+Networking part fixes (overflows and timeouts).
+A lot of bugfixes, stability improvements.
 
 
 = Revolut - internal service (HR related) =
@@ -207,6 +219,6 @@ The project was started well and I regret it was not completed.
 === Contact me now! solarw.mail@gmail.com ===
 
 Set a meeting with me using calendy https://calendly.com/solarw-mail/30min
-* updated: 25.03.2022. check the latest version on http://solarw.github.io *
+* updated: 07.09.2022. check the latest version on http://solarw.github.io *
 
 generated using python!
